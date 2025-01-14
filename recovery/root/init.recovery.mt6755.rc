@@ -1,0 +1,3 @@
+on fs
+    wait /dev/block/platform/mtk-msdc.0/11230000.msdc0/
+    symlink /dev/block/platform/mtk-msdc.0/11230000.msdc0/ /dev/block/platform/bootdevice
